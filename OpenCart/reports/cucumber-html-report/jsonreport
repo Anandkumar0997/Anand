@@ -1,0 +1,1034 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "To Register in the opencart",
+        "description": "",
+        "id": "opencart-website;to-register-in-the-opencart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13007584091,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user Opens the opencart webpage",
+            "match": {
+              "location": "RegistrationSteps.the_user_Opens_the_opencart_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14206359869,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user opens the registration webpage",
+            "match": {
+              "location": "RegistrationSteps.the_user_opens_the_registration_webpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90550187398,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user fiils the \"akil\" and \"kumar\"and \"akil@gmail.com\"and\"23456789\"and\"ganhi street\"and\"chennai\"and\"600002\"and\"India\"and\"Tamil\"and\"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "akil",
+                  "offset": 20
+                },
+                {
+                  "val": "kumar",
+                  "offset": 31
+                },
+                {
+                  "val": "akil@gmail.com",
+                  "offset": 42
+                },
+                {
+                  "val": "23456789",
+                  "offset": 61
+                },
+                {
+                  "val": "ganhi street",
+                  "offset": 74
+                },
+                {
+                  "val": "chennai",
+                  "offset": 91
+                },
+                {
+                  "val": "600002",
+                  "offset": 103
+                },
+                {
+                  "val": "India",
+                  "offset": 114
+                },
+                {
+                  "val": "Tamil",
+                  "offset": 124
+                },
+                {
+                  "val": "password",
+                  "offset": 134
+                }
+              ],
+              "location": "RegistrationSteps.the_user_fiils_the_and_and_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13278843758,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on \"register1\" to create a new account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "register1",
+                  "offset": 20
+                }
+              ],
+              "location": "RegistrationSteps.the_user_clicks_on_to_create_a_new_account(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@OpenCart"
+          },
+          {
+            "line": 3,
+            "name": "@TC_01_Register"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "To Register in the opencart",
+        "description": "",
+        "id": "opencart-website;to-register-in-the-opencart;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3750551184,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user Opens the opencart webpage",
+            "match": {
+              "location": "RegistrationSteps.the_user_Opens_the_opencart_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4483992562,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user opens the registration webpage",
+            "match": {
+              "location": "RegistrationSteps.the_user_opens_the_registration_webpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24839340146,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user fiils the \"jothi\" and \"kumar\"and \"jk98@gmail.com\"and\"23458796\"and\"nehru street\"and\"chennai\"and\"600065\"and\"India\"and\"Tamil\"and\"paswords\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jothi",
+                  "offset": 20
+                },
+                {
+                  "val": "kumar",
+                  "offset": 32
+                },
+                {
+                  "val": "jk98@gmail.com",
+                  "offset": 43
+                },
+                {
+                  "val": "23458796",
+                  "offset": 62
+                },
+                {
+                  "val": "nehru street",
+                  "offset": 75
+                },
+                {
+                  "val": "chennai",
+                  "offset": 92
+                },
+                {
+                  "val": "600065",
+                  "offset": 104
+                },
+                {
+                  "val": "India",
+                  "offset": 115
+                },
+                {
+                  "val": "Tamil",
+                  "offset": 125
+                },
+                {
+                  "val": "paswords",
+                  "offset": 135
+                }
+              ],
+              "location": "RegistrationSteps.the_user_fiils_the_and_and_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7393023121,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on \"register2\" to create a new account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "register2",
+                  "offset": 20
+                }
+              ],
+              "location": "RegistrationSteps.the_user_clicks_on_to_create_a_new_account(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@OpenCart"
+          },
+          {
+            "line": 3,
+            "name": "@TC_01_Register"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "To Register in the opencart",
+        "description": "",
+        "id": "opencart-website;to-register-in-the-opencart;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3973466644,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user Opens the opencart webpage",
+            "match": {
+              "location": "RegistrationSteps.the_user_Opens_the_opencart_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5172240556,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user opens the registration webpage",
+            "match": {
+              "location": "RegistrationSteps.the_user_opens_the_registration_webpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23521620515,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user fiils the \"mangal\" and \"pandi\"and \"mp2@gmail.com\"and\"23905678\"and\"bose street\"and\"chennai\"and\"600078\"and\"India\"and\"Tamil\"and\"passwopd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mangal",
+                  "offset": 20
+                },
+                {
+                  "val": "pandi",
+                  "offset": 33
+                },
+                {
+                  "val": "mp2@gmail.com",
+                  "offset": 44
+                },
+                {
+                  "val": "23905678",
+                  "offset": 62
+                },
+                {
+                  "val": "bose street",
+                  "offset": 75
+                },
+                {
+                  "val": "chennai",
+                  "offset": 91
+                },
+                {
+                  "val": "600078",
+                  "offset": 103
+                },
+                {
+                  "val": "India",
+                  "offset": 114
+                },
+                {
+                  "val": "Tamil",
+                  "offset": 124
+                },
+                {
+                  "val": "passwopd",
+                  "offset": 134
+                }
+              ],
+              "location": "RegistrationSteps.the_user_fiils_the_and_and_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7258239308,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on \"register3\" to create a new account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "register3",
+                  "offset": 20
+                }
+              ],
+              "location": "RegistrationSteps.the_user_clicks_on_to_create_a_new_account(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@OpenCart"
+          },
+          {
+            "line": 3,
+            "name": "@TC_01_Register"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "To Login in the Opencart",
+        "description": "",
+        "id": "opencart-website;to-login-in-the-opencart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3697368777,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user launch the chrome application",
+            "match": {
+              "location": "LoginPageSteps.the_user_launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4297106318,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user opens the opencart webpage",
+            "match": {
+              "location": "LoginPageSteps.the_user_opens_the_opencart_webpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8377753706,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user login using \"akil@gmail.com\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "akil@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "password",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginPageSteps.the_user_login_using_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6340861909,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click on the \"login1\" button user nagivate to the next page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login1",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginPageSteps.click_on_the_button_user_nagivate_to_the_next_page(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@OpenCart"
+          },
+          {
+            "line": 16,
+            "name": "@TC_02_LoginDetails"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "To Login in the Opencart",
+        "description": "",
+        "id": "opencart-website;to-login-in-the-opencart;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3811487960,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user launch the chrome application",
+            "match": {
+              "location": "LoginPageSteps.the_user_launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3041097871,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user opens the opencart webpage",
+            "match": {
+              "location": "LoginPageSteps.the_user_opens_the_opencart_webpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7937043226,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user login using \"jk98@gmail.com\" and \"paswords\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jk98@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "paswords",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginPageSteps.the_user_login_using_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5286616321,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click on the \"login2\" button user nagivate to the next page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login2",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginPageSteps.click_on_the_button_user_nagivate_to_the_next_page(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@OpenCart"
+          },
+          {
+            "line": 16,
+            "name": "@TC_02_LoginDetails"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "To Login in the Opencart",
+        "description": "",
+        "id": "opencart-website;to-login-in-the-opencart;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4115946045,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user launch the chrome application",
+            "match": {
+              "location": "LoginPageSteps.the_user_launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5713216668,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user opens the opencart webpage",
+            "match": {
+              "location": "LoginPageSteps.the_user_opens_the_opencart_webpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6754754461,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user login using \"mp2@gmail.com\" and \"passwopd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mp2@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "passwopd",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginPageSteps.the_user_login_using_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5372857658,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click on the \"login3\" button user nagivate to the next page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login3",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginPageSteps.click_on_the_button_user_nagivate_to_the_next_page(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@OpenCart"
+          },
+          {
+            "line": 16,
+            "name": "@TC_02_LoginDetails"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "To Login with invalid details",
+        "description": "",
+        "id": "opencart-website;to-login-with-invalid-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3818348491,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user launch the app",
+            "match": {
+              "location": "InvalidDetailsLogin.the_user_launch_the_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3798741443,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user opens the login page",
+            "match": {
+              "location": "InvalidDetailsLogin.the_user_opens_the_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28005633603,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user giving invalid details \"ak\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ak",
+                  "offset": 33
+                },
+                {
+                  "val": "1234",
+                  "offset": 42
+                }
+              ],
+              "location": "InvalidDetailsLogin.the_user_giving_invalid_details_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11102660240,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "click on \"testcase1\" appropriate error message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testcase1",
+                  "offset": 10
+                }
+              ],
+              "location": "InvalidDetailsLogin.click_on_appropriate_error_message_is_displayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@OpenCart"
+          },
+          {
+            "line": 29,
+            "name": "@TC_03_InvalidDetails"
+          }
+        ]
+      },
+      {
+        "line": 49,
+        "name": "To Register with invalid email details",
+        "description": "",
+        "id": "opencart-website;to-register-with-invalid-email-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3872280117,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the user open the opencart webpage",
+            "match": {
+              "location": "RegisterInvalidEmail.the_user_open_the_opencart_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3235113357,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the user open the registration webpage",
+            "match": {
+              "location": "RegisterInvalidEmail.the_user_open_the_registration_webpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22999955215,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the user gives the \"akil\" and \"kumar\"and \"akil.gmail.com\"and\"23456789\"and\"ganhi street\"and\"chennai\"and\"600002\"and\"India\"and\"Tamil\"and\"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "akil",
+                  "offset": 20
+                },
+                {
+                  "val": "kumar",
+                  "offset": 31
+                },
+                {
+                  "val": "akil.gmail.com",
+                  "offset": 42
+                },
+                {
+                  "val": "23456789",
+                  "offset": 61
+                },
+                {
+                  "val": "ganhi street",
+                  "offset": 74
+                },
+                {
+                  "val": "chennai",
+                  "offset": 91
+                },
+                {
+                  "val": "600002",
+                  "offset": 103
+                },
+                {
+                  "val": "India",
+                  "offset": 114
+                },
+                {
+                  "val": "Tamil",
+                  "offset": 124
+                },
+                {
+                  "val": "password",
+                  "offset": 134
+                }
+              ],
+              "location": "RegisterInvalidEmail.the_user_gives_the_and_and_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5382907267,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user click on \"testcase2\" to create a new account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testcase2",
+                  "offset": 19
+                }
+              ],
+              "location": "RegisterInvalidEmail.the_user_click_on_to_create_a_new_account(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@OpenCart"
+          },
+          {
+            "line": 40,
+            "name": "@TC_04_InvalidEmail"
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "To Display all desktops and to add a desktop",
+        "description": "",
+        "id": "opencart-website;to-display-all-desktops-and-to-add-a-desktop",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3917547675,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user open the opencart",
+            "match": {
+              "location": "DesktopPageSteps.user_open_the_opencart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3108124499,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "the user clicks on desktop tab",
+            "match": {
+              "location": "DesktopPageSteps.the_user_clicks_on_desktop_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9628770469,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the user clicks on all desktop",
+            "match": {
+              "location": "DesktopPageSteps.the_user_clicks_on_all_desktop()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6345757024,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "the user adds to cart",
+            "match": {
+              "location": "DesktopPageSteps.the_user_adds_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 51,
+            "name": "@TC_05_DesktopDisplay"
+          }
+        ]
+      },
+      {
+        "line": 59,
+        "name": "To Choose the product and add to cart",
+        "description": "",
+        "id": "opencart-website;to-choose-the-product-and-add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4098786321,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "the user launch the web",
+            "match": {
+              "location": "addToCartstepDefinition.the_user_launch_the_web()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3019762862,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "the user launches the application",
+            "match": {
+              "location": "addToCartstepDefinition.the_user_launches_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23081172681,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "the user search for the products",
+            "match": {
+              "location": "addToCartstepDefinition.the_user_search_for_the_products()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2472911027,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "click on add to cart",
+            "match": {
+              "location": "addToCartstepDefinition.click_on_add_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 58,
+            "name": "@TC_06_AddtoCart"
+          }
+        ]
+      }
+    ],
+    "name": "OpenCart Website",
+    "description": "",
+    "id": "opencart-website",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Feature/OpencartTestFile.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@OpenCart"
+      }
+    ]
+  }
+]
