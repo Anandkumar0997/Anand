@@ -17,7 +17,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class LoginPage {
 
-	protected WebDriver wb;
+	protected WebDriver wb;//To initiate driver here
 	public void Opencart_Login_browser(WebDriver driver)
 	{
 		this.wb=driver;
@@ -34,13 +34,13 @@ public class LoginPage {
 
 	public void url(String browserName) throws InterruptedException, IOException
 	{
-
+//for chrome
 		if(browserName.equals("chrome")){
 
 			System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\Driver\\chromedriver_80.exe");
 			wb = new ChromeDriver();
 		}
-
+//for firefox
 		else if(browserName.equals("firefox")){
 			System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\Driver\\geckodriver7.exe");
 			wb = new FirefoxDriver();
