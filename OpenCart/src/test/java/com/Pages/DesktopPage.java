@@ -16,6 +16,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class DesktopPage {
 
  protected WebDriver wb;
+	//To Driver is initiated here
 	public void Opencart_Desktop_browser(WebDriver driver)
 	{
 		this.wb=driver;
@@ -28,13 +29,13 @@ public class DesktopPage {
 	//To launch the browser
 	public void url(String browserName) throws InterruptedException, IOException
 	{
-	
+	//for chrome
 		if(browserName.equals("chrome")){
 
 			System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\Driver\\chromedriver_80.exe");
 			wb = new ChromeDriver();
 		}
-
+         //for firefox     
 		else if(browserName.equals("firefox")){
 			System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\Driver\\geckodriver7.exe");
 			wb = new FirefoxDriver();
