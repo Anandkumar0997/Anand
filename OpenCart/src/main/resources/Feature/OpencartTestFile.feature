@@ -1,11 +1,11 @@
 @OpenCart
 Feature: OpenCart Website
 @TC_01_Register
- Scenario Outline: To Register in the opencart
-    Given the user Opens the opencart webpage
-    When the user opens the registration webpage
-    Then the user fiils the "<first>" and "<last>"and "<email>"and"<telephone>"and"<address>"and"<city>"and"<post>"and"<country>"and"<region>"and"<password>"
-    Then the user clicks on "<register>" to create a new account
+Scenario Outline: To Register in the opencart
+Given the user Opens the opencart webpage
+When the user opens the registration webpage
+Then the user fiils the "<first>" and "<last>"and "<email>"and"<telephone>"and"<address>"and"<city>"and"<post>"and"<country>"and"<region>"and"<password>"
+Then the user clicks on "<register>" to create a new account
     
 Examples: 
 |first  |last  |email             |telephone |address      |city    |post   |country |region |password |register  |
