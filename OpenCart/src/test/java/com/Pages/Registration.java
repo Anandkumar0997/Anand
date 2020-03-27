@@ -18,6 +18,7 @@ import org.openqa.selenium.interactions.Actions;
 public class Registration  {
 	
 protected WebDriver wb;
+	//To initiate driver
 public void Opencart_Registration_browser(WebDriver driver)
 {
 	this.wb=driver;
@@ -47,13 +48,13 @@ public void Opencart_Registration_browser(WebDriver driver)
 //To launch the browser
 	public void web(String browserName) throws InterruptedException, IOException
 	{
-		
+		//for chrome
 		if(browserName.equals("chrome")){
 
 			System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\Driver\\chromedriver_80.exe");
 			wb = new ChromeDriver();
 		}
-
+//for firefox
 		else if(browserName.equals("firefox")){
 			System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\Driver\\geckodriver7.exe");
 			wb = new FirefoxDriver();
@@ -90,7 +91,7 @@ public void Opencart_Registration_browser(WebDriver driver)
 		wb.findElement(Country).click();
 		wb.findElement(Country).sendKeys(country);
 		wb.findElement(Country).click();
-		Thread.sleep(5000);
+		Thread.sleep(5000);//To wait for the page to load
 		wb.findElement(Region).click();
 		wb.findElement(Region).sendKeys(region);
 		wb.findElement(Region).click();
@@ -106,9 +107,9 @@ public void Opencart_Registration_browser(WebDriver driver)
 	public void submit(String source) throws InterruptedException, IOException
 	{
 		WebElement l5=wb.findElement(submit);
-		Actions a=new Actions(wb);
+		Actions a=new Actions(wb);//To move the mouse using actions
 		a.moveToElement(l5).click().perform();
-		wb.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		wb.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);//To wait for the webpage
 		TakesScreenshot ts=(TakesScreenshot)wb;
 		File f=ts.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(f, new File("src\\test\\resources\\Screenshot\\"+source+".png"));
