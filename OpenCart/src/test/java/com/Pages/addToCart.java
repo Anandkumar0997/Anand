@@ -12,7 +12,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class addToCart {
 	
-	protected WebDriver wb;
+	protected WebDriver wb;//To initiate driver
 	public void Opencart_addTocart_browser(WebDriver driver)
 	{
 		this.wb=driver;
@@ -34,21 +34,21 @@ public class addToCart {
 	// url for launch the chrome
 	public void url(String browserName) { 
 		
-
+//for chrome
 		if(browserName.equals("chrome")){
 
 			System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\Driver\\chromedriver_80.exe");
 			wb = new ChromeDriver();
 		}
-
+//for firefox
 		else if(browserName.equals("firefox")){
 			System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\Driver\\geckodriver7.exe");
 			wb = new FirefoxDriver();
 		}
 		wb.manage().window().maximize();
 		wb.manage().deleteAllCookies();
-		wb.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
-		wb.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		wb.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);//to wait for the loading time
+		wb.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);//To wait for the overall time
 	}
 	
 	 //using webdriver and to launch the opencart
@@ -82,7 +82,7 @@ public class addToCart {
 //To finish and close the browser
 	public void addcart() throws InterruptedException {
 		wb.findElement(addtocart).click();
-		Thread.sleep(2000);
+		Thread.sleep(2000);//To wait for the particular time
 		wb.close();
 	}
 
