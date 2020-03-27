@@ -9,16 +9,16 @@ Then the user clicks on "<register>" to create a new account
     
 Examples: 
 |first  |last  |email             |telephone |address      |city    |post   |country |region |password |register  |
-|akil   |kumar |akil@gmail.com    |23456789  |ganhi street |chennai |600002 |India   |Tamil  |password |register1 |
-|jothi  |kumar |jk98@gmail.com    |23458796  |nehru street |chennai |600065 |India   |Tamil  |paswords |register2 |
-|mangal |pandi |mp2@gmail.com     |23905678  |bose street  |chennai |600078 |India   |Tamil  |passwopd |register3 |
-|john   |kevin |john1998@gmail.com|25646789  |gundu street |mumbai  |654378 |India   |Maha   |opencart1|register4 |
-|kanna  |suresh|ks987@gmail.com   |24680876  |Kongu street |pune    |543789 |India   |Maha   |opencart2|register5 |
-|suresh |Pillai|han765@gmail.com  |23456789  |Jothi street |chennai |609876 |India   |Tamil  |openc@rt3|register6 |
-|mukil  |gnaesh|mge98@gmail.com   |24365789  |Rahl street  |chennai |600034 |India   |Tamil  |openc@rt4|register7 |
-|Surya  |kumarr|sk1998@gmail.com  |23098475  |mei street   |chennai |654890 |India   |Tamil  |opencart6|register8 |
-|karthi |keyan |kk90@gmail.com    |23456755  |ruba street  |chennai |987069 |India   |Tamil  |openca#t5|register9 |
-|maneesh|erat  |man1@gmail.com    |23434556  |Palaka street|kerala  |767987 |India   |ker    |opencart0|register10|
+|akil   |kumar |akil3@gmail.com    |23456789  |ganhi street |chennai |600002 |India   |Tamil  |password |register1 |
+|jothi  |kumar |jk983@gmail.com    |23458796  |nehru street |chennai |600065 |India   |Tamil  |paswords |register2 |
+|mangal |pandi |mp23@gmail.com     |23905678  |bose street  |chennai |600078 |India   |Tamil  |passwopd |register3 |
+|john   |kevin |john31998@gmail.com|25646789  |gundu street |mumbai  |654378 |India   |Maha   |opencart1|register4 |
+|kanna  |suresh|ks9873@gmail.com   |24680876  |Kongu street |pune    |543789 |India   |Maha   |opencart2|register5 |
+|suresh |Pillai|han7653@gmail.com  |23456789  |Jothi street |chennai |609876 |India   |Tamil  |openc@rt3|register6 |
+|mukil  |gnaesh|mge9833@gmail.com   |24365789  |Rahl street  |chennai |600034 |India   |Tamil  |openc@rt4|register7 |
+|Surya  |kumarr|sk19983@gmail.com  |23098475  |mei street   |chennai |654890 |India   |Tamil  |opencart6|register8 |
+|karthi |keyan |kk903@gmail.com    |23456755  |ruba street  |chennai |987069 |India   |Tamil  |openca#t5|register9 |
+|maneesh|erat  |man13@gmail.com    |23434556  |Palaka street|kerala  |767987 |India   |ker    |opencart0|register10|
 
 @TC_02_LoginDetails
 Scenario Outline: To Login in the Opencart
@@ -29,16 +29,16 @@ Then click on the "<login>" button user nagivate to the next page
 
 Examples: 
 |username          |password |login  |
-|akil@gmail.com    |password |login1 |
-|jk98@gmail.com    |paswords |login2 |
-|mp2@gmail.com     |passwopd |login3 |
-|john1998@gmail.com|opencart1|login4 |
-|ks987@gmail.com   |opencart2|login5 |
-|han765@gmail.com  |openc@rt3|login6 |
-|mge98@gmail.com   |openc@rt4|login7 |
-|sk1998@gmail.com  |opencart6|login8 |
-|kk90@gmail.com    |openca#t5|login9 |
-|man1@gmail.com    |opencart0|login10|
+|akil3@gmail.com    |password |login1 |
+|jk983@gmail.com    |paswords |login2 |
+|mp23@gmail.com     |passwopd |login3 |
+|john31998@gmail.com|opencart1|login4 |
+|ks9873@gmail.com   |opencart2|login5 |
+|han7653@gmail.com  |openc@rt3|login6 |
+|mge983@gmail.com   |openc@rt4|login7 |
+|sk19983@gmail.com  |opencart6|login8 |
+|kk903@gmail.com    |openca#t5|login9 |
+|man13@gmail.com    |opencart0|login10|
 
 @TC_03_InvalidDetails
 Scenario Outline: To Login with invalid details
